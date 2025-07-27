@@ -28,7 +28,7 @@ const Login = () => {
   return (
     <>
     	<Container className="mt-5">
-    		<h1 className="mt-5">Formulario de Registro</h1>
+    		<h1 className="mt-5">Formulario de Login</h1>
     		{error?<p className="error">{mensaje}</p>:null}
 		    <Form onSubmit={validarDatos}>
 		    	<Row className="mb-3 justify-content-center">
